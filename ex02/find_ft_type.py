@@ -1,13 +1,14 @@
 def all_thing_is_obj(object: any) -> int:
     """
-    Función que imprime el tipo de objeto y devuelve 42.
+    Function that prints the object type and returns 42.
 
     Args:
-        object: Objeto de cualquier tipo (lista, tupla,
-        conjunto, diccionario, cadena, entero, etc.).
+
+    object: Any type of object (list, tuple, set, dictionary, string, integer, etc.).
 
     Returns:
-        int: Siempre devuelve el valor entero 42.
+
+    int: Always returns the integer value 42.
     """
 
     object_type = type(object)
